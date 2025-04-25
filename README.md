@@ -49,7 +49,7 @@ playwright install
 
 创建一个 Excel 文件，文件格式如下：
 
-![](https://raw.githubusercontent.com/0xlin888/discord_message/refs/heads/main/excel.png?raw=true)
+![](https://raw.githubusercontent.com/0xlin888/discord_message/refs/heads/main/excel.png)?raw=true)
 
 - **第一列**（unique_id）：Morelogin环境序号
 - **第二列**（discord_url）：需要发送消息的频道链接
