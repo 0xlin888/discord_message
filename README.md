@@ -49,22 +49,22 @@ playwright install
 
 创建一个 Excel 文件，文件格式如下：
 
-unique_id | discord_url | message
-1 | https://discord.com/channels/.../... | gm
-2 | https://discord.com/channels/.../... | !faucet 0x.....................000
+![](https://raw.githubusercontent.com/0xlin888/discord_message/refs/heads/main/excel.png?raw=true)
 
 - **第一列**（unique_id）：Morelogin环境序号
 - **第二列**（discord_url）：需要发送消息的频道链接
 - **第三列**（message）：消息内容
 ---
 
-## 📜 5. 运行提现脚本
+## 📜 5. 运行脚本
 
-修改morelogin.py配置
+修改dc_morelogin.py配置
 
 找到大概第89行，修改EXCEL路径为你自己的
 
 然后运行脚本，然后运行脚本，不会运行脚本看6常见问题
+
+![](https://raw.githubusercontent.com/0xlin888/discord_message/refs/heads/main/run.png?raw=true)
 
 ---
 
