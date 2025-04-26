@@ -1,4 +1,4 @@
-# Discord自动GM养号、自动领水 - 通过Morelogin
+# Discord自动GM养号、自动领水 - 通过Morelogin、AdsPower
 📢 我的推特
 
 ![](https://raw.githubusercontent.com/0xlin888/withdraw_from_okx/refs/heads/main/x.png?raw=true)
@@ -14,7 +14,7 @@
 ### ✅ 基础要求
 - 一台可以运行 Python 的电脑（Windows / Mac / Linux 都可以）
 - 安装 Python（建议使用 Python 3.8 及以上）
-- 使用Morelogin指纹浏览器
+- 使用Morelogin指纹浏览器或AdsPower指纹浏览器
 
 ### ✅ 安装 Python
 如果你的电脑没有 Python，可以按照下面的方式安装：
@@ -49,20 +49,26 @@ playwright install
 
 创建一个 Excel 文件，文件格式如下：
 
-![](https://raw.githubusercontent.com/0xlin888/discord_message/refs/heads/main/excel.png)?raw=true)
+![](https://raw.githubusercontent.com/0xlin888/discord_message/refs/heads/main/excel.png?raw=true)
 
-- **第一列**（unique_id）：Morelogin环境序号
+- **第一列**
+- 如果你用的是**Morelogin**，第一列列名为unique_id：Morelogin环境序号
+- 如果你用的是**AdsPower**，第一列列名为serial_number：AdsPower环境编号
 - **第二列**（discord_url）：需要发送消息的频道链接
 - **第三列**（message）：消息内容
 ---
 
 ## 📜 5. 运行脚本
 
-修改dc_morelogin.py配置
+**如果你是Morelogin**
 
-找到大概第89行，修改EXCEL路径为你自己的
+修改dc_morelogin.py配置，找到大概第89行，修改EXCEL路径为你自己的
 
-然后运行脚本，然后运行脚本，不会运行脚本看6常见问题
+**如果你是AdsPower**
+
+修改dc_Adspower.py配置，找到大概第79行，修改EXCEL路径为你自己的
+
+然后运行脚本，不会运行脚本看6常见问题
 
 ![](https://raw.githubusercontent.com/0xlin888/discord_message/refs/heads/main/run.png?raw=true)
 
