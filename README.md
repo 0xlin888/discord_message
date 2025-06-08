@@ -1,9 +1,6 @@
 # Discord自动GM养号、自动领水 - 通过Morelogin、AdsPower
 📢 我的推特
-
-![](https://raw.githubusercontent.com/0xlin888/withdraw_from_okx/refs/heads/main/x.png?raw=true)
-
-🔗[@0x零](https://x.com/0xlin888) 求个关注！如果有任何使用问题，可以通过推特联系我。
+🔗[@0x零](https://x.com/0xlin168) 求个关注！如果有任何使用问题，可以通过推特联系我。
 ## 📌 1. 这个是什么脚本？
 这个 Python 脚本可以帮助你通过Morelogin打开Discord指定的频道，自动发送指定消息，可以用于gm养号和领水。
 
